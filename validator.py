@@ -1,3 +1,8 @@
+# Thiago Militao
+# 
+# Last revision 6/27
+#
+
 # this program is used to verify the Luhn algorithm
 # which is used to verify if credit card numbers are valid or not
 # by reversing the card number order, doubling up on every other digit, and if the doubled number is bigger than 10 it subtracts 9 as necessary. 
@@ -6,6 +11,7 @@
 
 import random # import the random stuff
 
+# Uncomment the line below to have it generate a random credit card number and determine if it's valid or not
 # card_number = random.randint(16,9999999999999999)
 
 card_number = input("Please enter your full credit card number: (no spaces please) \n> ") # take the user input
